@@ -1,17 +1,147 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>TechCon 2024 Conference</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TechCon 2024 Conference</title>
+    <style>
+        /* Base Reset and Body Styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1d3557;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #f1faee;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+
+        nav ul li a[aria-current="page"] {
+            background-color: #457b9d;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 30px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        article, section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #1d3557;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        figure {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        figure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        figcaption {
+            margin-top: 8px;
+            font-style: italic;
+            color: #555;
+        }
+
+        .speakers {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .speakers section {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .speakers h3 {
+            margin-top: 15px;
+            color: #457b9d;
+        }
+
+        footer {
+            background-color: #1d3557;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 8px 0;
+            }
+        }
+    </style>
+</head>
 <body>
     <header>
         <h1><strong>About TechCon 2024 Conference</strong></h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" aria-current="page">About</a></li>
+                <li><a href="indexhome.html">Home</a></li>
+                <li><a href="aboutus.html" aria-current="page">About</a></li>
                 <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="register.html">Register</a></li>
                 <li><a href="contact.html">Contact</a></li>
